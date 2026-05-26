@@ -1,0 +1,17 @@
+#!/bin/bash
+
+<< help
+
+this script is to download and update packages
+
+./install_package.sh nginx
+./install_package.sh docker.io
+
+help
+
+echo "Installing $1"
+
+sudo apt update
+sudo apt-get install $1 -y
+
+echo "Installation complete"

@@ -1,0 +1,20 @@
+#!/bin/bash
+
+<< info
+this script explain how to create function
+
+info
+
+
+function create_user { 
+
+read -p "enter the username:" username
+
+sudo useradd -m $username
+
+echo "user created sucessfully"
+ 
+}
+
+
+create_user

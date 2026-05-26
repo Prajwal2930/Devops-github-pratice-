@@ -1,0 +1,19 @@
+#!/bin/bash
+
+<< info
+
+this script is for to check that user is deleted 
+
+info
+
+read -p "enter the user name to check: "  username
+
+count=$(cat /etc/passwd | grep $username | wc | awk '{print $1}')
+
+if [ $count == 0 ];
+then 
+	echo "user dosnt exists"
+else 
+	echo "user exist"
+
+fi
