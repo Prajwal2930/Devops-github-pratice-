@@ -18,3 +18,4 @@ echo "user created sucessfully"
 
 
 create_user
+echo "hello this is used to create suer fiunction"
