@@ -1,12 +1,3 @@
 hello prajwal it is updated file of devops :
 
-A
-A
-B
-D	
-C
-B
-
-C
-B
 devops 
